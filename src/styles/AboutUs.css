@@ -1,0 +1,120 @@
+.about-section {
+  background-color: #f7f5ef;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Georgia', serif;
+  color: #111;
+ 
+}
+
+.about-heading .explore-text {
+  font-size: 40px;
+  color: #d4c1a7;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
+
+.about-heading .company-name {
+  font-size: 18px;
+  color: #c6a87c;
+  letter-spacing: 3px;
+  margin-top: 5px;
+}
+
+.about-heading .main-title {
+  font-size: 42px;
+  margin: 20px 0 10px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.about-heading .subtitle {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-image img {
+  max-width: 500px;
+  width: 100%;
+  margin: 20px auto 0;
+  display: block;
+}
+
+.about-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 60px;
+  max-width: 1200px;
+  margin: 60px auto 0;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.feature-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.feature-icon {
+  border: 1px solid #ddd;
+  width: 160px;
+  height: 160px;
+  /* min-width: 80px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-icon img {
+  max-width: 140px;
+  max-height: 140px;
+}
+
+.feature-box h3 {
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+  font-family: 'Georgia', serif;
+  letter-spacing: 1px;
+}
+
+.feature-box p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+  max-width: 400px;
+}
+
+.feature-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-cta {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta-button-2 {
+  background-color: #c6a87c;
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 28px;
+  /* border-radius: 4px; */
+  font-size: 16px;
+  /* font-family: 'Georgia', serif; */
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button-2:hover {
+  background-color: #b2926b;
+}
+

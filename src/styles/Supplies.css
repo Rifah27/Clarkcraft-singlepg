@@ -1,0 +1,123 @@
+.yacht-section {
+  text-align: center;
+  padding: 60px 20px;
+  font-family: "Georgia", serif;
+  background-color: #f7f5ef;
+  width: 100%;
+}
+
+.section-header h5 {
+  color: #c4b89b;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.section-header h2 {
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.section-header p {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.yacht-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.yacht-card {
+  width: 400px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.main-img,
+.hover-img {
+  width: 100%;
+  height: 280px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  display: block;
+  transition: transform 1.5s ease, opacity 1.5s ease;
+}
+
+.hover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: blur(8px);
+  z-index: 2;
+}
+
+.main-img:hover {
+  
+  opacity: 0.9;
+  transform: scale(1.05);
+
+}
+
+/* .img-container:hover .hover-img {
+  opacity: 1;
+  filter: blur(0px);
+} */
+
+/* .img-container:hover .main-img {
+  opacity: 0;
+} */
+
+.yacht-price {
+  color: #c4b89b;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.yacht-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px 0;
+  color: #000;
+}
+
+.yacht-description {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.cta-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta-button {
+  background-color: #c6a87c;
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 28px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #b2926b;
+}
