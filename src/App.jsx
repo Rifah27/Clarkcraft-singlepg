@@ -21,8 +21,8 @@ function App() {
       <AboutUs />
       <Supplies />
       <Testimonials />
-      {/* <FAQs /> */}
       <Blog />
+       <FAQs /> 
       <Footer />
     </>
   )
