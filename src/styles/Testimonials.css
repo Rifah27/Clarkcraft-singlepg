@@ -138,5 +138,12 @@
   }
   .testimonial-swiper {
     padding: 5px;
+    margin-top: 15px;
+    max-width: 100vw;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
