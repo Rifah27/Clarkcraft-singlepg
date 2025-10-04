@@ -101,3 +101,42 @@
     padding: 0 15px;
   }
 }
+@media (max-width: 1024px) {
+  .testimonial-heading .title {
+    font-size: 30px;
+  }
+  .testimonial-content .quote {
+    font-size: 15px;
+    max-width: 90vw;
+  }
+  .testimonial-swiper {
+    max-width: 98vw;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonials {
+    padding: 25px 5px;
+  }
+  .testimonial-heading .title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .testimonial-heading .subtitle {
+    font-size: 11px;
+    margin-bottom: 6px;
+  }
+  .testimonial-content .quote {
+    font-size: 13px;
+    padding: 0 5px;
+    line-height: 1.6;
+  }
+  .testimonial-content .author {
+    font-size: 13px;
+    margin-top: 12px;
+  }
+  .testimonial-swiper {
+    padding: 5px;
+  }
+}
