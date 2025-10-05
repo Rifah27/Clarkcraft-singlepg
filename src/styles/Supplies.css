@@ -121,33 +121,3 @@
 .cta-button:hover {
   background-color: #b2926b;
 }
-@media (max-width: 900px) {
-  .yacht-grid {
-    grid-template-columns: 1fr;
-    gap: 30px;
-    max-width: 100%;
-    padding: 0 10px;
-  }
-  .yacht-card {
-    width: 100%;
-    min-width: 0;
-  }
-}
-
-@media (max-width: 600px) {
-  .yacht-section {
-    padding: 30px 5px;
-  }
-  .section-header h2 {
-    font-size: 28px;
-  }
-  .main-img,
-  .hover-img {
-    height: 180px;
-    padding: 4px;
-  }
-  .cta-button {
-    padding: 12px 18px;
-    font-size: 14px;
-  }
-}
