@@ -113,37 +113,3 @@
   }
 }
 
-@media (max-width: 480px) {
-  .testimonials {
-    padding: 25px 5px;
-  }
-
-  .testimonial-heading .title {
-    font-size: 20px;
-    margin-bottom: 12px;
-  }
-
-  .testimonial-content .quote {
-    font-size: 13px;
-    line-height: 1.6;
-    padding: 0 2px;
-  }
-
-  .testimonial-content .author {
-    font-size: 13px;
-    margin-top: 12px;
-  }
-
-  .testimonial-swiper {
-    padding: 5px;
-  }
-
-  .nav-arrow svg {
-    width: 18px;
-    height: 32px;
-  }
-
-  .nav-arrow {
-    top: 80px;
-  }
-}
