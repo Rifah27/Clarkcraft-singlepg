@@ -24,6 +24,12 @@ const AboutUs = () => {
                     To empower businesses with innovative digital solutions and exceptional service.
                 </p>
             </div>
+            <div className="aboutus-vision">
+                <h2>Our Vision</h2>
+                <p>
+                    To be a leading provider of transformative technology, inspiring growth and progress for our clients worldwide.
+                </p>
+            </div>
         </div>
     );
 };
