@@ -13,9 +13,9 @@ const AboutUs = () => {
             <div className="aboutus-team">
                 <h2>Our Team</h2>
                 <ul>
-                    <li>John Clark - Founder & CEO</li>
-                    <li>Jane Smith - Lead Developer</li>
-                    <li>Michael Lee - Project Manager</li>
+                    <li>Alia Siddiqui - Founder & CEO</li>
+                    <li>Sana Arif- Lead Developer</li>
+                    <li>Aishwarya Vaish - Project Manager</li>
                 </ul>
             </div>
             <div className="aboutus-mission">
