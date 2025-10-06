@@ -18,7 +18,7 @@ const Header = () => {
           <img src="/assets/logo-2.png" alt="Seafarer Logo" className="logo" />
 
           <ul className="nav-menu right">
-            <li><Link to="#">ABOUT US</Link></li>
+            <li><Link to="/aboutus">ABOUT US</Link></li>
             <li><Link to="#">ORDERING INFORMATION</Link></li>
             <li><Link to="#">CONTACT US</Link></li>
           </ul>
