@@ -74,12 +74,37 @@
     font-size: 1rem;
 }
 
+@media (max-width: 900px) {
+    .aboutus-section {
+        padding: 20px;
+        max-width: 95%;
+    }
+    .aboutus-team {
+        gap: 18px;
+    }
+    .aboutus-member {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 600px) {
     .aboutus-section {
-        padding: 16px;
+        padding: 12px;
+        max-width: 100%;
+    }
+    .aboutus-header {
+        font-size: 2rem;
+    }
+    .aboutus-section-title {
+        font-size: 1.2rem;
     }
     .aboutus-team {
         flex-direction: column;
-        gap: 16px;
+        gap: 12px;
+    }
+    .aboutus-member {
+        width: 100%;
+        padding: 12px;
     }
 }
