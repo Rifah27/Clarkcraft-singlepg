@@ -1,0 +1,95 @@
+/* aboutus.css */
+
+/* Color Theme */
+:root {
+    --primary-bg: #1a202c;
+    --secondary-bg: #2d3748;
+    --accent: #38b2ac;
+    --text-main: #f7fafc;
+    --text-secondary: #a0aec0;
+}
+
+/* Page Container */
+.aboutus-container {
+    background: var(--primary-bg);
+    color: var(--text-main);
+    min-height: 100vh;
+    padding: 40px 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Header */
+.aboutus-header {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: var(--accent);
+}
+
+/* Section */
+.aboutus-section {
+    background: var(--secondary-bg);
+    border-radius: 12px;
+    padding: 32px;
+    max-width: 800px;
+    margin: 0 auto 32px auto;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
+
+/* Section Title */
+.aboutus-section-title {
+    font-size: 1.5rem;
+    color: var(--accent);
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+/* Section Text */
+.aboutus-section-text {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* Team Members */
+.aboutus-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.aboutus-member {
+    background: var(--primary-bg);
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    color: var(--text-main);
+    box-shadow: 0 2px 8px rgba(56,178,172,0.08);
+}
+
+.aboutus-member-name {
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 8px;
+}
+
+.aboutus-member-role {
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .aboutus-section {
+        padding: 16px;
+    }
+    .aboutus-team {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
