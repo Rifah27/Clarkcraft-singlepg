@@ -91,5 +91,3 @@ a professional, long-lasting finish.
 };
 
 export default Supplies;
-
-{/* <img src={yacht.hoverImg} alt="hover" className="hover-img" /> */}

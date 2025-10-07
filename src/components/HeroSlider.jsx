@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/heroSlider.css";
-// import heroImage from "/assets/home.jpg";
 
 const Hero = () => {
   return (
