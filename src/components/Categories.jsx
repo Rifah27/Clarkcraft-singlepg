@@ -60,7 +60,6 @@ const Categories = () => {
   return (
     <section className="categories-section">
       <div className="section-header">
-        {/* <h5>EXPLORE RANGE</h5> */}
         <h2>BOAT CATEGORIES</h2>
         <p>
           Discover our wide selection of marine supply categories to equip your
@@ -72,15 +71,8 @@ const Categories = () => {
           <div
             key={index}
             className="category-card"
-            // onMouseEnter={() => setHoveredIndex(index)}
-            // onMouseLeave={() => setHoveredIndex(null)}
           >
             <div className="image-wrapper">
-              {/* <img
-                src={hoveredIndex === index ? cat.hoverImg : cat.img}
-                alt={cat.name}
-                className={`category-img ${hoveredIndex === index ? "hovered" : ""}`}
-              /> */}
               <img src={cat.img} alt={cat.name} className="category-img" />
             </div>
             <h4 className="category-name">{cat.name}</h4>
