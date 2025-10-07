@@ -33,8 +33,6 @@ const AboutUs = () => {
   return (
     <div className="about-section">
       <div className="about-heading">
-        {/* <div className="explore-text">EXPLORE</div>
-        <div className="company-name">YACHTING COMPANY</div> */}
         <h1 className="main-title">ABOUT <strong>CLARK CRAFT.</strong></h1>
         <p className="subtitle">
           Since 1957, Clark Craft has believed in one simple idea: anyone with a dream and a solid
