@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // <-- make sure you're using React Router
+import { Link } from 'react-router-dom';
 import '../styles/AboutUs.css';
 
 const features = [
