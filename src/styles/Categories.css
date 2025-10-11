@@ -103,3 +103,62 @@
 .cta-button:hover {
   background-color: #b2926b;
 }
+@media (max-width: 900px) {
+  .categories-section {
+    padding: 40px 10px;
+    margin-top: 50px;
+  }
+
+  .section-header h2 {
+    font-size: 32px;
+  }
+
+  .categories-grid {
+    gap: 20px;
+    max-width: 100%;
+  }
+
+  .category-img {
+    height: 160px;
+  }
+}
+
+@media (max-width: 600px) {
+  .categories-section {
+    padding: 25px 5px;
+    margin-top: 30px;
+  }
+
+  .section-header h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .section-header p {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .categories-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .category-img {
+    height: 120px;
+    padding: 4px;
+  }
+
+  .category-name {
+    font-size: 16px;
+  }
+
+  .category-description {
+    font-size: 13px;
+  }
+
+  .cta-button {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+}
