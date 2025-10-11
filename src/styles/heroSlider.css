@@ -73,15 +73,6 @@
 .arrow-right {
   right: 30px;
 }
-@media (max-width: 1200px) {
-  .hero {
-    padding: 0 40px;
-  }
-  .hero-title {
-    font-size: 50px;
-  }
-}
-
 @media (max-width: 900px) {
   .hero {
     padding: 0 20px;
