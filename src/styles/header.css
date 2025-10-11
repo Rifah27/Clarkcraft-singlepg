@@ -125,3 +125,75 @@
 .icon {
   font-size: 20px;
 }
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 16px 24px 8px 24px;
+  }
+  .logo {
+    width: 200px;
+    font-size: 1.5rem;
+  }
+  .nav-center {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 12px 8px 12px;
+  }
+  .nav-center {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 16px;
+    margin-top: 8px;
+  }
+  .nav-menu {
+    gap: 16px;
+    font-size: 15px;
+  }
+  .logo {
+    width: 150px;
+    font-size: 1.2rem;
+  }
+  .nav-icons-fixed {
+    top: 60%;
+    right: 8px;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 8px 4px 4px 4px;
+  }
+  .logo {
+    width: 110px;
+    font-size: 1rem;
+  }
+  .nav-menu {
+    gap: 8px;
+    font-size: 13px;
+    flex-wrap: wrap;
+  }
+  .nav-center {
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .search-link {
+    font-size: 14px;
+    gap: 4px;
+  }
+  .nav-icons-fixed {
+    top: 70%;
+    right: 2px;
+    gap: 6px;
+  }
+  .square-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
+}
