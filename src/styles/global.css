@@ -52,28 +52,3 @@ html {
   max-width: 1200px;
   margin: 0 auto;
 }
-@media (max-width: 600px) {
-  .container {
-    width: 98%;
-    padding: 0 0.5rem;
-  }
-  img, video, canvas, svg {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
-  table {
-    width: 100%;
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  ul, ol {
-    padding-left: 1.2rem;
-  }
-  .responsive {
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box;
-  }
-}
