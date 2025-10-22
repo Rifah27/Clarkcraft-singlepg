@@ -23,14 +23,14 @@ const faqItems = [
       "We offer a 7-day return policy for unused and unopened products. If you receive a damaged or defective item, you can request a replacement within 7 days of delivery."
   },
   {
-    question: "LOREM IPSUM DOLOR SIT AMET",
+    question: "How can I claim my warranty?",
     answer:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tempus, tellus eget ante et bibendum sodales."
   },
   {
     question: "How can I reach customer support?",
     answer:
-      "You can contact us via email or helpline between 10 AM – 6 PM, Monday to Saturday for any queries or assistance."
+      "You can contact us via email or helpline between 10 AM - 6 PM, Monday to Saturday for any queries or assistance."
   }
 ];
 
