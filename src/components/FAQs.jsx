@@ -8,7 +8,7 @@ const faqItems = [
       "Simply choose your desired product, add it to your cart, and proceed to checkout. After payment, you’ll receive an order confirmation via email or SMS."
   },
   {
-    question: "LOREM IPSUM DOLOR SIT AMET CONSECTETUER",
+    question: "How long does delivery take?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
   },
