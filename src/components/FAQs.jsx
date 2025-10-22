@@ -30,7 +30,7 @@ const faqItems = [
   {
     question: "How can I reach customer support?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+      "You can contact us via email or helpline between 10 AM – 6 PM, Monday to Saturday for any queries or assistance."
   }
 ];
 
