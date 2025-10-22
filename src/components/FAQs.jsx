@@ -10,7 +10,7 @@ const faqItems = [
   {
     question: "How long does delivery take?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+      "Orders are usually delivered within 3-7 business days, depending on your location."
   },
   {
     question: "LOREM IPSUM DOLOR SIT AMET CONSECTETUER ADIPISICING",
