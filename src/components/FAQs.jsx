@@ -20,7 +20,7 @@ const faqItems = [
   {
     question: "What is the return policy? ",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+      "We offer a 7-day return policy for unused and unopened products. If you receive a damaged or defective item, you can request a replacement within 7 days of delivery."
   },
   {
     question: "LOREM IPSUM DOLOR SIT AMET",
