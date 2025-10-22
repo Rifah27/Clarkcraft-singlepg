@@ -25,7 +25,7 @@ const faqItems = [
   {
     question: "How can I claim my warranty?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tempus, tellus eget ante et bibendum sodales."
+      "You can submit a warranty claim through the official support portal by providing your invoice and issue details."
   },
   {
     question: "How can I reach customer support?",
