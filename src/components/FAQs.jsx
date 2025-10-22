@@ -3,9 +3,9 @@ import "../styles/FAQs.css";
 
 const faqItems = [
   {
-    question: "LOREM IPSUM DOLOR SIT AMET",
+    question: "How can I place an order?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tempus, tellus eget ante et bibendum sodales."
+      "Simply choose your desired product, add it to your cart, and proceed to checkout. After payment, you’ll receive an order confirmation via email or SMS."
   },
   {
     question: "LOREM IPSUM DOLOR SIT AMET CONSECTETUER",
