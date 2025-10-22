@@ -15,7 +15,7 @@ const faqItems = [
   {
     question: "How can I track my order?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+      "Once your order is shipped, a tracking link will be shared via email or SMS. You can also check the “My Orders” section in your account."
   },
   {
     question: "LOREM IPSUM DOLOR SIT AMET CONSECTETUER ADIPISICING ELIT",
