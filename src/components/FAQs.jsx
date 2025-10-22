@@ -5,7 +5,7 @@ const faqItems = [
   {
     question: "How can I place an order?",
     answer:
-      "Simply choose your desired product, add it to your cart, and proceed to checkout. After payment, you’ll receive an order confirmation via email or SMS."
+      "Simply choose your desired product, add it to your cart, and proceed to checkout. After payment, you'll receive an order confirmation via email or SMS."
   },
   {
     question: "How long does delivery take?",
