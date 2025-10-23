@@ -75,7 +75,6 @@ a professional, long-lasting finish.
               <img src={yacht.img} alt={yacht.name} className="main-img" />
               
             </div>
-            {/* <p className="yacht-price">{yacht.price}</p> */}
             <h4 className="yacht-name">{yacht.name}</h4>
             <p className="yacht-description">{yacht.description}</p>
           </div>
