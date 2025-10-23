@@ -1,4 +1,3 @@
-// File: components/TestimonialsSection.jsx
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
