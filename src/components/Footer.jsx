@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="footer-column">
           <h3>CONTACT DETAILS</h3>
           <p>(800) 223-5452</p>
-          <p>Mon – Sat, 9:00 AM – 5:00 PM</p>
+          <p>Mon - Sat, 9:00 AM – 5:00 PM</p>
           <p>1234 River Road, Buffalo, NY 14228, USA</p>
           <p>info@clarkcraft.com</p>
         </div>
