@@ -78,7 +78,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display';
   transition: color 0.3s ease;
 }
 
