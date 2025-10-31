@@ -4,7 +4,7 @@ import "../styles/Blog.css";
 const blogPosts = [
   {
     title: "APPLYING MARINE EPOXY",
-    date: "July 23, 2021",
+    date: "July 25, 2021",
     category: "DIY TIPS",
     description:
       "Lorem ipsum dolor sit Get a professional, waterproof finish. Our guide walks you through the essential steps for mixing and applying epoxy correctly, consectetur adipiscing elit nean commodo ligula eget dol",
