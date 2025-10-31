@@ -47,7 +47,7 @@ const FAQs = () => {
         <p className="faq-subtitle">BOAT COMPANY</p>
         <h2 className="faq-title">ASK A QUESTION</h2>
         <p className="faq-description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed similique saepe voluptatibus iusto ea repudiandae sapiente unde minus odit modi labore sunt consequuntur, quas facere ipsam non qui veritatis distinctio!
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed similique saepe voluptatibus iusto ea repudiandae sapiente unde minus odit modi labore sunt consequuntur, quas facere ipsam!
         </p>
       </div>
 
