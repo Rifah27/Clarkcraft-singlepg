@@ -22,7 +22,7 @@ const yachts = [
   },
   {
     name: "FASTENERS",
-    price: "$14 / per day",
+    price: "$15 / per day",
     img: "/assets/fastener.jpeg",
     hoverImg: "/assets/epoxy.jpeg",
     description:
