@@ -59,7 +59,7 @@ const Supplies = () => {
   return (
     <section className="yacht-section">
       <div className="section-header">
-        <h5>QUALITY MATERIALS SINCE 1957</h5>
+        <h5>QUALITY MATERIALS SINCE 1957.</h5>
         <h2>BOATBUILDING SUPPLIES</h2>
         <p>
           A great boat starts with the right materials. We offer a curated selection of
