@@ -63,7 +63,7 @@ const Categories = () => {
         <h2>BOAT CATEGORIES</h2>
         <p>
           Discover our wide selection of marine supply categories to equip your
-          vessel for every voyage—safely, smartly, and stylishly.
+          vessel for every voyage—safely,smartly, and stylishly.
         </p>
       </div>
       <div className="categories-grid">
