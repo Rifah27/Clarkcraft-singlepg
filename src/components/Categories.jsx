@@ -82,7 +82,7 @@ const Categories = () => {
       </div>
       <div className="cta-container">
         <Link to="/supplies" className="cta-button">
-          Explore All Categories
+          Explore All Categories.
         </Link>
       </div>
     </section>
