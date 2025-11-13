@@ -25,7 +25,7 @@ const categories = [
     name: "HOUSEBOATS",
     img: "/assets/houseboats.jpg",
     hoverImg: "/assets/outboardboats.jpg",
-    description: "Floating homes equipped with living spaces for extended stays on the water",
+    description: "Floating homes equipped with living spaces for extended stays on the water.",
   },
   {
     name: "MINI TUGBOATS",
