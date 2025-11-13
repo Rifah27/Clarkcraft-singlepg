@@ -13,7 +13,7 @@ const categories = [
     name: "CANOE & KAYAKS",
     img: "/assets/canoes.jpg",
     hoverImg: "/assets/hydroplanes.jpg",
-    description: "Lightweight and versatile boats perfect for paddling adventures on lakes and rivers.",
+    description: "Lightweight and versatile boats perfect for paddling adventures on lakes and rivers",
   },
   {
     name: "DUCKBOATS",
