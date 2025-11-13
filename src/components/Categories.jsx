@@ -19,7 +19,7 @@ const categories = [
     name: "DUCKBOATS",
     img: "/assets/duckboats.jpeg",
     hoverImg: "/assets/jonboats.jpg",
-    description: "Specialized shallow-water boats designed for hunting and fishing in marshlands",
+    description: "Specialized shallow-water boats designed for hunting and fishing in marshlands.",
   },
   {
     name: "HOUSEBOATS",
