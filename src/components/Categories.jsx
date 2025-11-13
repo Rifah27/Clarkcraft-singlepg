@@ -37,7 +37,7 @@ const categories = [
     name: "PONTOON BOATS",
     img: "/assets/pontoon.jpg",
     hoverImg: "/assets/powercats.jpeg",
-    description: "Stable and spacious boats ideal for family outings and calm water cruising.",
+    description: "Stable and spacious boats ideal for family outings and calm water cruising",
   },
   {
     name: "SAILBOATS",
