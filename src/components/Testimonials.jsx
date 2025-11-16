@@ -16,7 +16,7 @@ const testimonials = [
     quote:
       "P.S. Also enclosed is a photograph of the boat we made last winter. We also got the frame and hardware kit for this boat from your company. I powered this boat with a 155 HP OMC stem drive and the boat handled it beautifully. And the design of the hull made it a very seaworthy craf sit amet elit quis lectus  tincidunt congue. Integer et leo vel enim pretium euismod. Proin nec semper elit. In sit amet ipsum eget erat tincidunt lacinia.",
     author: "J. T. MICHIGAN",
-    role: "Mariner 21",
+    role: "Mariner 16 Sport",
   },
   {
     quote:
