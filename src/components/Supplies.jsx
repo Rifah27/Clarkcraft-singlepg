@@ -30,7 +30,7 @@ const yachts = [
   },
   {
     name: "STEERING",
-    price: "$15 / per day",
+    price: "$8 / per day",
     img: "/assets/steering.jpeg",
     hoverImg: "/assets/fastener.jpeg",
     description:
