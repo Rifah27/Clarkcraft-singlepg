@@ -6,7 +6,7 @@ const yachts = [
   
   {
     name: "EPOXY-PLUS MARINE EPOXY",
-    price: "$20 / per day",
+    price: "$15 / per day",
     img: "/assets/epoxy.jpeg",
     hoverImg: "/assets/fibre-glass.jpeg",
     description:
