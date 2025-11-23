@@ -9,7 +9,7 @@ const testimonials = [
   {
     quote:
       "I enjoyed building your 14 ft. Commander Fisherman. It was designed and planned outbeautifully. I am 15 years old and built the kit in only 3 or 4 weekends. It is a perfect boat for me. I get a lot of use in my crabbing and shrimping business. It is a tough little boat and I would recommend ft to anyone.",
-    author: "S. N. GEORGIA",
+    author: "A. N. GEORGIA",
     role: "Commander 17 Fisherman",
   },
   {
