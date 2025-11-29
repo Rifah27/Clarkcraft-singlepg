@@ -31,7 +31,7 @@ const Testimonials = () => {
     <section className="testimonials">
       <div className="testimonial-heading">
         <p className="subtitle">TESTIMONIALS</p>
-        <h2 className="title">WHAT ARE BUILDERS SAY.</h2>
+        <h2 className="title">WHAT DOES BUILDERS SAY.</h2>
 
         
         <div className="custom-prev nav-arrow">
