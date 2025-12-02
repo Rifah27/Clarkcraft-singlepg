@@ -21,7 +21,7 @@ const testimonials = [
   {
     quote:
       "We find the lines of these boats just beautiful. My five year old Grandson is so happy with his boat.estibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Nullam eget hendrerit erat. Cras tristique viverra orci at feugiat.",
-    author: "T. G. NORTH CAROLINA",
+    author: "F. G. NORTH CAROLINA",
     role: "Doryy 13 Skiff",
   },
 ];
