@@ -63,7 +63,7 @@ const Supplies = () => {
         <h2>BOATBUILDING SUPPLIES</h2>
         <p>
           A great boat starts with the right materials. We offer a curated selection of
-high-performance boatbuilding supplies trusted by builders for decades. Find everything
+high-performance boatbuilding supplies trusted by builders for decades . Find everything
 you need, from strong marine epoxy to quality fiberglass cloth, to ensure your project has
 a professional, long-lasting finish.
         </p>
