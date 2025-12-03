@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="footer-about">
           <img src="/assets/logo.png" alt="Clark Craft Logo" className="logo-1" />
           <p>
-            Since 1957, Clark Craft has been the trusted source for high-quality boat plans, kits, and boatbuilding supplies. We're dedicated to empowering builders of all skill levels to create the boat of their dreams.
+            Since 1958, Clark Craft has been the trusted source for high-quality boat plans, kits, and boatbuilding supplies. We're dedicated to empowering builders of all skill levels to create the boat of their dreams.
           </p>
           <div className="social-icons">
             <a href="#"><FaFacebookF /></a>
