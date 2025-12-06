@@ -14,7 +14,7 @@ const yachts = [
   },
   {
     name: "FIBERGLASS & COATINGS",
-    price: "$17 / per day",
+    price: "$12/ per day",
     img: "/assets/fibre-glass.jpeg",
     hoverImg: "/assets/epoxy.jpeg",
     description:
