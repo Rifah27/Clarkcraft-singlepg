@@ -46,7 +46,7 @@ const yachts = [
   },
   {
     name: "PLAN SAVER",
-    price: "$17/ per day",
+    price: "$12/ per day",
     img: "/assets/plansaver.jpg",
     hoverImg: "/assets/fastener.jpeg",
     description:
