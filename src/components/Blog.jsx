@@ -22,7 +22,7 @@ const blogPosts = [
   },
   {
     title: "MATERIAL CHOICES",
-    date: "August 1, 2025",
+    date: "August 6, 2025",
     category: "PLAN SELECTION",
     description:
       "Plywood or Fiberglass? Choosing your material is the first big decision. We break down the costs, benefits, and skills required for each method.",
