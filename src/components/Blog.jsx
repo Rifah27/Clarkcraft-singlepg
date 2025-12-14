@@ -13,7 +13,7 @@ const blogPosts = [
   },
   {
     title: " A PERFECT SAILBOATS",
-    date: "August 3, 2025",
+    date: "August 5, 2025",
     category: "CUSTOMER BUILDS",
     description:
       "See how one family used our plans to build their dream sailboat. An inspiring story from our dedicated builder community. ipsum dolor sit amet, consectetur adipiscing elit nean commodo ligula eget dol",
