@@ -54,7 +54,7 @@
   width: 100%;
   height: 280px;
   padding: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   display: block;
   transition: transform 1.5s ease, opacity 1.5s ease;
 }
