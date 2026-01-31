@@ -13,7 +13,7 @@ const blogPosts = [
   },
   {
     title: " A PERFECT SAILBOATS",
-    date: "January 27, 2025",
+    date: "January 16, 2025",
     category: "CUSTOMER BUILDS",
     description:
       "See how one family used our plans to build their dream sailboat. An inspiring story from our dedicated builder community. ipsum dolor sit amet, consectetur adipiscing elit nean commodo ligula eget dol",
@@ -22,7 +22,7 @@ const blogPosts = [
   },
   {
     title: "MATERIAL CHOICES",
-    date: "August 6, 2025",
+    date: "November 09, 2025",
     category: "PLAN SELECTION",
     description:
       "Plywood or Fiberglass? Choosing your material is the first big decision. We break down the costs, benefits, and skills required for each method.",
@@ -31,7 +31,7 @@ const blogPosts = [
   },
   {
     title: "CHOOSING FASTENERS",
-    date: "February 2, 2025",
+    date: "February 05, 2025",
     category: "BOATBUILDING SUPPLIES",
     description:
       "Don't let corrosion ruin your hard work. Learn the difference between silicon bronze and stainless steel, and when to use each for maximum durability.",
