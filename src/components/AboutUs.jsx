@@ -4,7 +4,7 @@ import '../styles/AboutUs.css';
 
 const features = [
   {
-    title: "Our 75+ Year Legacy in Boatbuilding",
+    title: "Our 77+ Year Legacy in Boatbuilding",
     description: "For over six decades, our proven boat designs have helped thousands of first-time builders and seasoned craftsmen successfully launch their projects. Our experience building and selling boat kits and plans is your guarantee of quality and a rewarding build.",
     icon: "/assets/icon (2).png",
     alt: "Yacht Icon",
