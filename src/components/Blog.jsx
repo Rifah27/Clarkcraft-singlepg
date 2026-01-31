@@ -31,7 +31,7 @@ const blogPosts = [
   },
   {
     title: "CHOOSING FASTENERS",
-    date: "August 2, 2025",
+    date: "February 2, 2025",
     category: "BOATBUILDING SUPPLIES",
     description:
       "Don't let corrosion ruin your hard work. Learn the difference between silicon bronze and stainless steel, and when to use each for maximum durability.",
