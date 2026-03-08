@@ -5,6 +5,7 @@ import "./styles/global.css";
 
 import Home from './pages/Home';
 import AboutUsPage from './pages/aboutus';
+import ContactUsPage from './pages/contactus';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<AboutUsPage />} />
+        <Route path="/contactus" element={<ContactUsPage />} />
       </Routes>
       <Footer />
     </>
