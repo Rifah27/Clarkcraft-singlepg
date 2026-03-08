@@ -1,110 +1,244 @@
-:root {
-    --primary-bg: #1a202c;
-    --secondary-bg: #2d3748;
-    --accent: #38b2ac;
-    --text-main: #f7fafc;
-    --text-secondary: #a0aec0;
+/* Modern Redesign for About Us Page */
+
+.aboutus-page-wrapper {
+    background-color: #faf9f6; /* Very light beige background */
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 0;
 }
 
-.aboutus-container {
-    background: var(--primary-bg);
-    color: var(--text-main);
-    min-height: 100vh;
-    padding: 40px 0;
-    font-family: 'Segoe UI', Arial, sans-serif;
-}
-
-.aboutus-header {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: bold;
+/* Typography Overrides */
+.aboutus-page-wrapper .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #111111;
     margin-bottom: 24px;
-    color: var(--accent);
+    position: relative;
 }
 
-.aboutus-section {
-    background: var(--secondary-bg);
-    border-radius: 12px;
-    padding: 32px;
-    max-width: 800px;
-    margin: 0 auto 32px auto;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
-}
-
-.aboutus-section-title {
-    font-size: 1.5rem;
-    color: var(--accent);
-    margin-bottom: 16px;
-    font-weight: 600;
-}
-
-.aboutus-section-text {
-    color: var(--text-secondary);
-    font-size: 1.1rem;
-    line-height: 1.7;
-}
-
-.aboutus-team {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    justify-content: center;
-    margin-top: 24px;
-}
-
-.aboutus-member {
-    background: var(--primary-bg);
-    border: 1px solid var(--accent);
-    border-radius: 8px;
-    padding: 20px;
-    width: 220px;
+.aboutus-page-wrapper .text-center {
     text-align: center;
-    color: var(--text-main);
-    box-shadow: 0 2px 8px rgba(56,178,172,0.08);
 }
 
-.aboutus-member-name {
-    font-weight: 600;
-    color: var(--accent);
+/* Hero Section */
+.aboutus-hero {
+    /* Set padding top to clear the fixed/absolute header */
+    padding-top: 180px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/aboutus.jpg') center/cover no-repeat;
+    text-align: center;
+    color: #ffffff;
+}
+
+.aboutus-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.aboutus-hero .sub-heading {
+    color: #c6a87c;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.aboutus-hero .main-title {
+    font-size: 52px;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+
+.aboutus-hero .main-title strong {
+    color: #c6a87c;
+}
+
+.aboutus-hero .hero-desc {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f0f0f0;
+}
+
+/* History Section */
+.aboutus-history-section {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 80px 0;
+}
+
+.history-text {
+    flex: 1;
+}
+
+.history-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.history-image {
+    flex: 1;
+}
+
+.history-image img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Mission & Vision Section */
+.aboutus-mission-vision {
+    background-color: #dfddd7;
+    padding: 80px 0;
+}
+
+.mv-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.mv-card {
+    background: #ffffff;
+    padding: 50px 40px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    border-top: 4px solid #c6a87c;
+    transition: transform 0.3s ease;
+}
+
+.mv-card:hover {
+    transform: translateY(-5px);
+}
+
+.mv-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 24px;
+}
+
+.mv-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #111111;
+}
+
+.mv-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+}
+
+/* Team Section */
+.aboutus-team-section {
+    padding: 80px 0;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.team-member {
+    text-align: center;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    transition: all 0.3s ease;
+}
+
+.team-member:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    border-color: #c6a87c;
+}
+
+.member-avatar {
+    width: 100px;
+    height: 100px;
+    background-color: #c6a87c;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.team-member h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #111111;
     margin-bottom: 8px;
 }
 
-.aboutus-member-role {
-    color: var(--text-secondary);
-    font-size: 1rem;
+.member-role {
+    color: #c6a87c;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
+/* CTA Section */
+.aboutus-cta {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.aboutus-cta h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.aboutus-cta p {
+    font-size: 18px;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.cta-button-gold {
+    background-color: #c6a87c;
+    color: #ffffff;
+    border: none;
+    padding: 16px 32px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button-gold:hover {
+    background-color: #b2926b;
+}
+
+/* Responsive */
 @media (max-width: 900px) {
-    .aboutus-section {
-        padding: 20px;
-        max-width: 95%;
-    }
-    .aboutus-team {
-        gap: 18px;
-    }
-    .aboutus-member {
-        width: 90%;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 600px) {
-    .aboutus-section {
-        padding: 12px;
-        max-width: 100%;
-    }
-    .aboutus-header {
-        font-size: 2rem;
-    }
-    .aboutus-section-title {
-        font-size: 1.2rem;
-    }
-    .aboutus-team {
+    .aboutus-history-section {
         flex-direction: column;
-        gap: 12px;
     }
-    .aboutus-member {
-        width: 100%;
-        padding: 12px;
+    
+    .mv-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .team-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: 40px auto 0;
     }
 }

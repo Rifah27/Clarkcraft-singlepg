@@ -1,31 +1,22 @@
-import { useState } from 'react'
-import Header from './components/Header'
-import HeroSlider from './components/HeroSlider'
+import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import "./styles/global.css";
 
-import Supplies from './components/Supplies';
-import Testimonials from './components/Testimonials';
-import FAQs from './components/FAQs';
-import Blog from './components/Blog';
-import Footer from './components/Footer';
-import AboutUs from './components/AboutUs';
-import Categories from './components/Categories';
+import Home from './pages/Home';
+import AboutUsPage from './pages/aboutus';
 
 function App() {
-
   return (
     <>
       <Header />
-      {/* <HeroSlider /> */}
-      <Categories />
-      <AboutUs />
-      <Supplies />
-      <Testimonials />
-      <Blog />
-       <FAQs /> 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutus" element={<AboutUsPage />} />
+      </Routes>
       <Footer />
     </>
   )
 }
 
-export default App
+export default App;
