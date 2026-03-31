@@ -43,7 +43,7 @@
 .btn-outline {
   padding: 12px 24px;
   background: transparent;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
   color: white;
   cursor: pointer;
 }
