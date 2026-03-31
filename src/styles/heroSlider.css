@@ -61,7 +61,7 @@
   position: absolute;
   top: 50%;
   font-size: 32px;
-  color: white;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   transform: translateY(-50%);
 }
