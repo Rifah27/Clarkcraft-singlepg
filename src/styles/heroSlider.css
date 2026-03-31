@@ -51,7 +51,7 @@
 .btn-filled {
   padding: 12px 24px;
   background-color: #c9a471;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
   cursor: pointer;
 }
