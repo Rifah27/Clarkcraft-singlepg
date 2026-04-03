@@ -35,7 +35,7 @@ const Footer = () => {
             <li><a href="#">Boatbuilding Supplies</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Customer Testimonials</a></li>
-            <li><a href="#">Builder's Blog</a></li>
+            <li><a href="/blog">Builder's Blog</a></li>
             <li><a href="#">FAQ</a></li>
           </ul>
         </div>

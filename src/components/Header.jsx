@@ -19,6 +19,7 @@ const Header = () => {
 
           <ul className="nav-menu right">
             <li><Link to="/aboutus">ABOUT US</Link></li>
+            <li><Link to="/blog">BLOG</Link></li>
             <li><Link to="#">ORDERING INFORMATION</Link></li>
             <li><Link to="/contactus">CONTACT US</Link></li>
           </ul>

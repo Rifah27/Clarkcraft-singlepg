@@ -6,6 +6,7 @@ import "./styles/global.css";
 import Home from './pages/Home';
 import AboutUsPage from './pages/aboutus';
 import ContactUsPage from './pages/contactus';
+import BlogPage from './pages/blog';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<AboutUsPage />} />
         <Route path="/contactus" element={<ContactUsPage />} />
+        <Route path="/blog" element={<BlogPage />} />
       </Routes>
       <Footer />
     </>
