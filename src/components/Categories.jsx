@@ -71,9 +71,16 @@ const Categories = () => {
           <div
             key={index}
             className="category-card"
+            onMouseEnter={() => setHoveredIndex(index)}
+            onMouseLeave={() => setHoveredIndex(null)}
           >
             <div className="image-wrapper">
-              <img src={cat.img} alt={cat.name} className="category-img" />
+              <img 
+                src={hoveredIndex === index ? cat.hoverImg : cat.img} 
+                alt={cat.name} 
+                className="category-img" 
+                style={{ transition: 'all 0.5s ease-in-out' }}
+              />
             </div>
             <h4 className="category-name">{cat.name}</h4>
             <p className="category-description">{cat.description}</p>
