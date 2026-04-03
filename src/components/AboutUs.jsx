@@ -35,7 +35,7 @@ const AboutUs = () => {
       <div className="about-heading">
         <h1 className="main-title">ABOUT <strong>CLARK CRAFT</strong></h1>
         <p className="subtitle">
-          Since 1959, Clark Craft has believed in one simple idea: anyone with a dream and a solid
+          Since 1955, Clark Craft has believed in one simple idea: anyone with a dream and a solid
  plan can build their own boat. From humble garage beginnings to a trusted name in
  American craftsmanship, we've been empowering builders with proven wooden and
  fiberglass boat designs — not just selling plans, but helping create adventures.
