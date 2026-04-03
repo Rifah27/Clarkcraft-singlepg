@@ -11,7 +11,6 @@ const Header = () => {
         <div className="nav-center">
           <ul className="nav-menu">
             <li><Link to="/">Home</Link></li>
-            <li><Link to="#">BOAT CATEGORIES</Link></li>
             <li><Link to="#">BOAT BUILDING SUPPLIES</Link></li>
           </ul>
 

@@ -54,7 +54,7 @@ const categories = [
 ];
 
 
-const Categories = () => {
+const Categories = ({ showButton = true }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
@@ -87,11 +87,13 @@ const Categories = () => {
           </div>
         ))}
       </div>
-      <div className="cta-container">
-        <Link to="/supplies" className="cta-button">
-          Explore All Categories.
-        </Link>
-      </div>
+      {showButton && (
+        <div className="cta-container">
+          <Link to="/categories" className="cta-button">
+            Explore All Categories.
+          </Link>
+        </div>
+      )}
     </section>
   );
 };
